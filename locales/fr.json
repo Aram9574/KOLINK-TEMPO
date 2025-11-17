@@ -1,0 +1,903 @@
+
+{
+  "common": {
+    "open": "Ouvrir"
+  },
+  "loginPage": {
+    "welcome": "Bienvenue à nouveau sur Kolink",
+    "subtitle": "Connectez-vous pour continuer à créer du contenu qui connecte sur LinkedIn.",
+    "emailLabel": "E-MAIL",
+    "emailPlaceholder": "nom@entreprise.com",
+    "passwordLabel": "MOT DE PASSE",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "loginButton": "Se connecter",
+    "needHelp": "Besoin d'aide ? Écrivez-nous à",
+    "noAccount": "Vous n'avez pas encore de compte ?",
+    "register": "S'inscrire",
+    "alert": {
+      "credentials": "Veuillez saisir votre e-mail et votre mot de passe.",
+      "emailRequired": "L'adresse e-mail est requise.",
+      "invalidEmail": "Le format de l'e-mail est invalide.",
+      "passwordRequired": "Veuillez saisir votre mot de passe."
+    }
+  },
+  "header": {
+    "level": "NIVEAU",
+    "logout": "Déconnexion",
+    "credits": "Crédits",
+    "notifications": {
+      "title": "Notifications",
+      "markAllRead": "Marquer tout comme lu",
+      "clearRead": "Effacer les lues",
+      "empty": {
+        "title": "Tout est à jour",
+        "subtitle": "Vous n'avez pas de nouvelles notifications."
+      }
+    }
+  },
+  "sidebar": {
+    "writePost": "Écrire un Post",
+    "nav": {
+      "panel": "Tableau de bord",
+      "ajustes": "Paramètres",
+      "estadísticas": "Statistiques",
+      "centro_de_ayuda": "Centre d'aide",
+      "generador_de_posts": "Générateur de Posts",
+      "mis_posts": "Mes posts",
+      "autopilot": "Autopilote",
+      "base_de_conocimiento": "Base de Connaissances"
+    },
+    "sections": {
+      "contentCreation": "Création de contenu",
+      "drafts": "Brouillons & Programmation"
+    },
+    "report": {
+      "title": "Signaler un bug / suggestion",
+      "description": "Vos retours nous aident à nous améliorer.",
+      "button": "Signaler",
+      "modal": {
+        "title": "Signaler un problème ou une suggestion",
+        "description": "Vos retours nous aident à améliorer Kolink. Dites-nous ce qui s'est passé.",
+        "typeLabel": "Type de retour",
+        "types": {
+          "bug": "Signaler un bug",
+          "suggestion": "Suggestion d'amélioration",
+          "content": "Problème de contenu IA",
+          "other": "Autre"
+        },
+        "summaryLabel": "Décrivez le problème ou la suggestion",
+        "summaryPlaceholder": "Soyez aussi détaillé que possible. S'il s'agit d'un bug, que faisiez-vous lorsque c'est arrivé ?",
+        "summaryRequired": "Veuillez ajouter une description.",
+        "cancel": "Annuler",
+        "submit": "Envoyer le retour",
+        "submitSuccess": "Merci ! Votre retour a été envoyé."
+      }
+    }
+  },
+  "panel": {
+    "greeting_morning": "Bonjour {name}, créons quelque chose de mémorable ! ✨",
+    "greeting_afternoon": "Bon après-midi {name}, prêt à inspirer ? ✨",
+    "greeting_night": "Bonsoir {name}, une dernière idée avant de finir la journée ? ✨",
+    "description": "Voici un résumé de votre activité. Consultez vos statistiques ou générez votre prochain grand post.",
+    "quickInsight": "Créer un Post",
+    "manageCredits": "Voir les Paramètres",
+    "viewHistory": "Voir Mes Posts",
+    "stats": {
+      "credits": "Crédits Disponibles",
+      "creditsSubtitle": "Restants ce mois-ci",
+      "weeklyActivity": "Activité Hebdomadaire",
+      "weeklyActivitySubtitle": "Posts publiés",
+      "autoPilot": "Auto-Pilot",
+      "autoPilotValue": "Actif",
+      "autoPilotSubtitle": "Fréquence personnalisée",
+      "viralScore": "Score Viral",
+      "viralScoreSubtitle": "Engagement moyen",
+      "totalPosts": "Posts Totals",
+      "totalPostsSubtitle": "Publiés",
+      "totalImpressions": "Impressions Totales",
+      "totalImpressionsSubtitle": "Cumulées",
+      "avgEngagement": "Engagement Moyen",
+      "avgEngagementSubtitle": "Global"
+    },
+    "suggestedGoal": {
+      "title": "Objectif Hebdomadaire Suggéré",
+      "description": "Publiez au moins <strong>3 posts</strong> cette semaine pour maintenir le rythme. Vous en avez déjà fait <strong>{count}</strong>. Continuez comme ça !"
+    },
+    "actions": {
+      "generatePost": {
+        "title": "Générateur de Posts",
+        "description": "Créez du contenu à fort impact avec l'aide de l'IA. Choisissez un modèle ou partez de zéro."
+      },
+      "manageAutoPilot": {
+        "title": "Gérer l'Autopilote",
+        "description": "Automatisez la génération de brouillons et maintenez un flux constant d'idées à réviser."
+      },
+      "exploreInspiration": {
+        "title": "Hub d'Inspiration",
+        "description": "Découvrez des exemples de posts viraux et de tendances pour ne jamais être à court d'idées."
+      }
+    },
+    "xp_explanation": {
+      "title": "Comment gagner des XP ?",
+      "description": "Effectuez des actions clés sur la plateforme pour monter de niveau et débloquer de nouveaux rangs.",
+      "actions": {
+        "generate": "Générer un post",
+        "schedule": "Programmer une publication",
+        "publish": "Publier sur LinkedIn",
+        "autopilot": "Utiliser l'Autopilote pour créer des idées"
+      }
+    }
+  },
+  "generator": {
+    "title": "Studio créatif",
+    "subtitle": "Définissez votre objectif, ajustez le ton et laissez l'IA proposer le meilleur brouillon.",
+    "templateLabel": "Choisissez un modèle (optionnel)",
+    "templates": {
+      "question": "Question au public",
+      "tip": "Conseil rapide",
+      "event": "Annonce d'événement",
+      "testimonial": "Témoignage client",
+      "case_study": "Étude de cas",
+      "industry_news": "Actualité du secteur"
+    },
+    "template_prompts": {
+      "question": "Posez une question ouverte et stimulante sur [sujet principal] qui invite à la reflexión et au débat parmi les professionnels de [votre industrie/secteur].",
+      "tip": "Partagez une astuce pratique et peu connue sur [compétence ou outil clé]. Structurez-la en 3 étapes simples et ajoutez un exemple concret.",
+      "event": "Annoncez un événement à venir : [Nom de l'événement].\nDate : [Date]\nHeure : [Heure]\nDescription : [Décrivez brièvement l'événement et ce que le public y apprendra].\nAppel à l'action : [Invitez-les à s'inscrire ou à en savoir plus].",
+      "testimonial": "Partagez un témoignage d'un client satisfait.\nClient : [Nom du client/entreprise]\nLeur problème : [Décrivez leur défi initial]\nSolution apportée : [Comment votre produit/service les a aidés]\nRésultat : [Mentionnez un résultat quantifiable ou un bénéfice majeur]\nCitation du client : \"[Collez ici la citation du client]\"",
+      "case_study": "Résumez une réussite récente.\nDéfi : [Décrivez le problème du client]\nSolution mise en œuvre : [Détaillez la stratégie ou les actions que vous avez menées]\nRésultats clés : [Mentionnez 2-3 métriques de succès, comme % d'augmentation des ventes ou réduction des coûts]\nLeçon apprise : [Partagez une conclusion précieuse]",
+      "industry_news": "Commentez une actualité récente dans [votre industrie].\nActualité : [Résumez l'actualité en une phrase]\nMon opinion/perspective : [Ajoutez votre analyse sur ce que cette nouvelle signifie pour l'avenir du secteur ou pour vos clients]\nQuestion finale : [Terminez par une question pour connaître l'avis de votre public]"
+    },
+    "promptLabel": "Écrivez votre prompt ou idée principale...",
+    "promptPlaceholder": "Ex: Écrire un post sur l'importance de l'IA dans le marketing digital pour les startups, en mentionnant 3 bénéfices clés.",
+    "promptEnhancement": {
+      "enable": "Amélioration de Prompt IA",
+      "tooltip": "Réécrit automatiquement votre idée pour la rendre plus claire et détaillée pour l'IA. Cette fonction est désactivée lors de l'utilisation d'un modèle.",
+      "enhanceButton": "Améliorer avec l'IA",
+      "enhancingButton": "Amélioration...",
+      "success": "Prompt amélioré avec l'IA !",
+      "error": "Impossible d'améliorer le prompt. Utilisation de l'original."
+    },
+    "personalization": {
+      "title": "Personnalisation IA",
+      "toneLabel": "Ton",
+      "tones": {
+        "professional": "Professionnel",
+        "friendly": "Amical",
+        "inspirational": "Inspirant",
+        "humorous": "Humoristique",
+        "formal": "Formel",
+        "casual": "Décontracté"
+      },
+      "postTypeLabel": "Type de Post",
+      "postTypes": {
+        "announcement": "Annonce",
+        "opinion": "Opinion",
+        "story": "Histoire personnelle",
+        "tip": "Conseil",
+        "debate": "Débat",
+        "question": "Question",
+        "news": "Actualité",
+        "tutorial": "Tutoriel"
+      },
+      "customInstructionsLabel": "Instructions personnalisées (optionnel)",
+      "customInstructionsPlaceholder": "Ex: Utiliser un langage simple, ajouter une anecdote personnelle...",
+      "useKnowledgeBase": "Utiliser la Base de Connaissances",
+      "useKnowledgeBaseTooltip": "Permet à l'IA d'utiliser les informations de votre Base de Connaissances pour créer des posts plus pertinents."
+    },
+    "advanced": {
+      "toggle": "Configuration Avancée",
+      "title": "Configuration Avancée de l'IA",
+      "length": "Longueur du Post",
+      "lengthOptions": {
+        "short": "Court (~50 mots)",
+        "medium": "Moyen (~150 mots)",
+        "long": "Long (~300 mots)"
+      },
+      "emojiUsage": "Utilisation d'Émojis",
+      "emojiUsageOptions": {
+        "none": "Aucun",
+        "subtle": "Subtil (1-2)",
+        "moderate": "Modéré (3-5)"
+      },
+      "creativity": "Créativité",
+      "creativityDescription": "Des valeurs plus élevées génèrent des réponses plus originales et moins prévisibles.",
+      "cta": "Appel à l'Action (CTA)",
+      "ctaOptions": {
+        "question": "Poser une question",
+        "debate": "Inviter au débat",
+        "link": "Partager un lien (placeholder)",
+        "none": "Aucun"
+      },
+      "hashtags": "Stratégie de Hashtags",
+      "hashtagsOptions": {
+        "broad": "Larges et populaires",
+        "niche": "De niche et spécifiques",
+        "none": "Sans hashtags"
+      },
+      "audience": "Public Cible",
+      "audiencePlaceholder": "Ex: Marketeurs, développeurs, PDG",
+      "saveAsDefault": "Enregistrer par défaut",
+      "defaultsSaved": "Enregistré",
+      "resetDefaults": "Restaurer"
+    },
+    "dictation": {
+      "start": "Commencer la dictée",
+      "stop": "Arrêter la dictée",
+      "listening": "Écoute...",
+      "errors": {
+        "unsupported": "La reconnaissance vocale n'est pas supportée par ce navigateur.",
+        "notAllowed": "Permission du microphone refusée. Vérifiez les paramètres de votre navigateur.",
+        "audioCapture": "Impossible de capturer l'audio. Vérifiez votre microphone.",
+        "network": "Erreur réseau. La dictée peut nécessiter une connexion sécurisée (HTTPS).",
+        "generic": "Une erreur est survenue avec la reconnaissance vocale.",
+        "startFailed": "Impossible de démarrer la dictée. Veuillez réessayer.",
+        "noSpeech": "Aucune parole détectée. Essayez de parler plus clairement."
+      }
+    },
+    "history": {
+      "title": "Historique de Génération",
+      "description": "Cliquez sur 'Réutiliser' pour modifier une version précédente.",
+      "reuse": "Réutiliser",
+      "noHistory": "Vous n'avez pas encore généré de posts."
+    },
+    "clear": "Effacer",
+    "generating": "Génération...",
+    "generate": "Générer",
+    "generatedPost": "Résultat Généré",
+    "previewTitle": "Aperçu (LinkedIn)",
+    "preview": {
+      "device": "Aperçu de l'Appareil",
+      "mobile": "Mobile",
+      "desktop": "Bureau",
+      "viewMobile": "Vue Mobile",
+      "viewDesktop": "Vue Bureau"
+    },
+    "share": {
+      "publish": "Publier sur LinkedIn",
+      "publishing": "Publication...",
+      "publishSuccess": "Post publié sur LinkedIn ! (Simulation)",
+      "downloadMD": "Télécharger (.md)",
+      "downloadTXT": "Télécharger (.txt)"
+    },
+    "placeholder": "Votre post généré par l'IA apparaîtra ici.",
+    "shareAction": "Partager",
+    "copySuccess": "Post copié dans le presse-papiers !",
+    "saveDraft": "Enregistrer comme Brouillon",
+    "saved": "Brouillon Enregistré",
+    "saveSuccess": "Brouillon enregistré dans 'Mes posts' !",
+    "errors": {
+      "promptRequired": "Veuillez écrire un prompt ou une idée pour générer le post.",
+      "generationFailed": "Une erreur est survenue lors de la génération du contenu. Veuillez réessayer.",
+      "noCreditsTitle": "Crédits insuffisants",
+      "noCreditsMessage": "Vous n'avez plus de crédits. Mettez à jour votre plan pour continuer à créer !"
+    }
+  },
+  "myPosts": {
+    "title": "Planificateur de Contenu",
+    "subtitle": "Organisez vos idées, programmez vos posts et visualisez votre calendrier éditorial.",
+    "view": {
+      "calendar": "Calendrier",
+      "list": "Liste"
+    },
+    "draftsSidebar": {
+      "title": "Brouillons",
+      "subtitle": "Glissez pour programmer"
+    },
+    "listView": {
+      "searchPlaceholder": "Rechercher des posts...",
+      "filters": {
+        "all": "Tous",
+        "draft": "Brouillons",
+        "scheduled": "Programmés",
+        "published": "Publiés"
+      },
+      "noResultsTitle": "Aucun post trouvé",
+      "noResultsDescription": "Essayez d'ajuster votre recherche ou vos filtres.",
+      "statuses": {
+        "draft": "Brouillon",
+        "scheduled": "Programmé",
+        "published": "Publié"
+      },
+      "table": {
+        "post": "Post",
+        "status": "Statut",
+        "taskStatus": "Statut de la Tâche",
+        "date": "Date Programmée"
+      },
+      "taskStatusUpdateSuccess": "Statut de la tâche mis à jour."
+    },
+    "taskStatuses": {
+      "todo": "À Faire",
+      "inprogress": "En Cours",
+      "completed": "Terminé"
+    },
+    "noDrafts": "Vous n'avez pas de brouillons. Générez un post pour commencer !",
+    "noScheduled": "Vous n'avez aucun post programmé.",
+    "schedule": "Programmer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "unschedule": "Déprogrammer",
+    "editModal": {
+      "titleSchedule": "Programmer le Post",
+      "titleEdit": "Modifier le Post",
+      "contentLabel": "Contenu du post",
+      "saveChanges": "Enregistrer les Modifications",
+      "updateSuccess": "Post mis à jour avec succès !"
+    },
+    "dateLabel": "Date",
+    "timeLabel": "Heure",
+    "cancel": "Annuler",
+    "saveSchedule": "Programmer et Enregistrer",
+    "scheduleSuccess": "Post programmé avec succès !",
+    "analytics": {
+      "views": "Impressions",
+      "likes": "Recommandations",
+      "comments": "Commentaires"
+    },
+    "calendar": {
+      "months": [
+        "Janvier", "Février", "Mars", "Avril", "Mai", "Juin",
+        "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"
+      ],
+      "daysShort": ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam", "Dim"]
+    }
+  },
+  "autopilot": {
+    "title": "Assistant de Contenu Autopilote",
+    "subtitle": "Générez des brouillons de posts basés sur votre profil et vos sujets d'intérêt. Vous révisez, approuvez et programmez.",
+    "howItWorks": {
+      "title": "Comment ça marche",
+      "step1": {
+        "title": "Configurez l'IA",
+        "description": "Ajustez la fréquence, les sujets et la personnalité de l'IA dans le panneau de contrôle."
+      },
+      "step2": {
+        "title": "Générez des Idées",
+        "description": "Cliquez sur 'Générer' et l'IA créera des brouillons prêts à être révisés."
+      },
+      "step3": {
+        "title": "Approuvez et Programmez",
+        "description": "Enregistrez les posts que vous aimez comme brouillons et programmez-les dans votre calendrier."
+      }
+    },
+    "config": {
+      "title": "Panneau de Configuration",
+      "mainSettings": {
+        "title": "Paramètres Principaux",
+        "statusLabel": "Statut de l'Autopilote",
+        "statusTooltip": "Activez l'Autopilote pour générer automatiquement des suggestions de posts en fonction de la fréquence choisie.",
+        "enabled": "Activé",
+        "disabled": "Désactivé",
+        "frequencyLabel": "Nombre de suggestions"
+      },
+      "topics": {
+        "title": "Sujets de Contenu",
+        "description": "Indiquez à l'IA sur quoi écrire. Elle utilise votre titre, des sujets personnalisés et des mots-clés de votre contenu précédent.",
+        "headlineLabel": "Votre Titre (Source Principale)",
+        "noHeadline": "Ajoutez votre titre dans <strong>Paramètres > Compte</strong> pour que l'Autopilote génère des suggestions personnalisées pour vous !",
+        "customTopicsLabel": "Ajoutez des sujets ou mots-clés",
+        "customTopicsPlaceholder": "Ex: Lancement de produit, tendances IA..."
+      },
+      "personality": {
+        "title": "Personnalité de l'IA",
+        "description": "Ajustez les paramètres pour un contrôle plus précis sur les suggestions générées.",
+        "useKnowledgeBase": "Utiliser la Base de Connaissances",
+        "useKnowledgeBaseTooltip": "Permet à l'IA d'utiliser les informations de votre Base de Connaissances pour créer des suggestions."
+      }
+    },
+    "frequency": {
+      "one": "1 suggestion",
+      "three": "3 suggestions",
+      "five": "5 suggestions"
+    },
+    "generateNow": "Générer des Suggestions",
+    "generating": "L'IA crée vos posts...",
+    "suggestions": {
+      "title": "Suggestions à Réviser",
+      "noSuggestions": "Pas encore de suggestions",
+      "startHere": "Utilisez le panneau de contrôle et cliquez sur 'Générer des Suggestions' pour commencer.",
+      "approve": "Approuver et Enregistrer",
+      "discard": "Rejeter",
+      "approved": "Approuvé",
+      "discarded": "Rejeté"
+    },
+    "analysis": {
+      "title": "Analyse de Contenu",
+      "tooltip": "L'IA analyse vos posts publiés pour identifier des thèmes clés et générer des idées plus alignées sur votre style.",
+      "subtitle": "Mots-clés de votre contenu",
+      "description": "Notre IA analyse automatiquement vos posts pour identifier vos thèmes principaux. Plus vous créez de posts (minimum 5 pour commencer), plus cette analyse sera précise. Le système cherchera jusqu'à 5 mots-clés. Vous pouvez aussi les gérer manuellement.",
+      "unlockInfo": "Créez encore au moins {count} posts pour débloquer l'analyse automatique de contenu.",
+      "noKeywords": "Aucun mot-clé n'a encore été identifié. Créez plus de contenu ou ajoutez-les manuellement.",
+      "keywordsCount": "mots-clés",
+      "deleteAll": "Tout supprimer",
+      "deleteAllConfirm": "Êtes-vous sûr de vouloir supprimer tous les mots-clés ?",
+      "manage": "Gérer",
+      "analyzeButton": "Analyser le contenu",
+      "analyzeSuccess": "Analyse de contenu terminée ! Vos thèmes ont été mis à jour.",
+      "analyzeError": "Impossible de terminer l'analyse. Veuillez réessayer.",
+      "modal": {
+        "titleManage": "Gérer les Mots-clés",
+        "currentKeywords": "Mots-clés Actuels",
+        "noKeywords": "Aucun mot-clé ajouté.",
+        "addKeyword": "Ajouter un nouveau mot-clé",
+        "placeholder": "Ex: Marketing Digital",
+        "add": "Ajouter",
+        "cancel": "Annuler",
+        "done": "Terminé"
+      },
+      "maxKeywordsWarning": "Vous avez atteint la limite de 5 mots-clés."
+    },
+    "onboarding": {
+      "title": "Bienvenue sur l'Autopilote !",
+      "description": "Pour vous donner les meilleures suggestions, l'Autopilote analyse deux choses : votre <strong>titre de profil</strong> pour comprendre qui vous êtes, et votre <strong>historique de posts</strong> pour connaître les sujets qui vous intéressent. Plus de contexte, meilleures idées !",
+      "button": "Compris !"
+    },
+    "error": "Impossible de générer les suggestions. Veuillez réessayer.",
+    "errors": {
+      "noCreditsMessage": "Crédits insuffisants pour générer {count} suggestions. {count} crédits sont nécessaires."
+    }
+  },
+  "knowledgeBase": {
+    "title": "Base de Connaissances",
+    "subtitle": "Ajoutez des informations clés sur vous, votre entreprise ou vos produits. L'IA utilisera ce contexte pour générer des posts plus précis.",
+    "add": "Ajouter une Connaissance",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cette entrée ?",
+    "searchPlaceholder": "Rechercher par titre ou contenu...",
+    "itemCount_one": "{count} entrée au total",
+    "itemCount_other": "{count} entrées au total",
+    "noResults": "Aucune entrée ne correspond à votre recherche.",
+    "empty": {
+      "title": "Construisez votre cerveau numérique",
+      "description": "Ajoutez des fragments d'information que l'IA pourra utiliser comme contexte. Plus elle en saura sur vous, meilleurs seront les posts qu'elle générera. Que pouvez-vous ajouter ?",
+      "examplesTitle": "Par exemple :",
+      "example1": "<strong>Mission de l'entreprise :</strong> 'Notre mission est de démocratiser l'accès à l'IA pour les créateurs de contenu...'",
+      "example2": "<strong>Détails du Produit X :</strong> 'Le Produit X offre une analyse prédictive, une intégration CRM et une génération automatique de brouillons.'",
+      "example3": "<strong>Ton de voix :</strong> 'Professionnel mais accessible, éviter le jargon technique, utiliser des anecdotes personnelles.'",
+      "example4": "<strong>Réalisations clés :</strong> 'Nous avons aidé plus de 500 entreprises à augmenter leur engagement sur LinkedIn de 40% en moyenne.'"
+    },
+    "modal": {
+      "addTitle": "Ajouter à la Base de Connaissances",
+      "editTitle": "Modifier l'Entrée de Connaissance",
+      "titleLabel": "Titre de l'entrée",
+      "titlePlaceholder": "Ex: Informations sur le Produit X",
+      "contentLabel": "Contenu",
+      "contentPlaceholder": "Collez ici du texte, des notes, des caractéristiques de produit, votre pitch, etc.",
+      "cancel": "Annuler",
+      "save": "Enregistrer"
+    }
+  },
+  "statistics": {
+    "title": "Statistiques",
+    "subtitle": "Analysez la performance de vos posts et comprenez votre audience.",
+    "dateRanges": {
+      "7d": "7 jours",
+      "30d": "30 jours",
+      "90d": "90 jours"
+    },
+    "metrics": {
+      "impressions": "Impressions Totales",
+      "engagementRate": "Taux d'Engagement",
+      "likes": "Mentions J'aime Totales",
+      "comments": "Commentaires Totals"
+    },
+    "comparison": "vs. période précédente",
+    "chart": {
+      "title": "Performance dans le temps",
+      "impressions": "Impressions",
+      "engagement": "Engagement"
+    },
+    "topPosts": {
+      "title": "Posts les Plus Performants",
+      "table": {
+        "post": "Post",
+        "impressions": "Impressions",
+        "likes": "Mentions J'aime",
+        "comments": "Commentaires",
+        "engagementRate": "Taux d'Eng."
+      }
+    },
+    "insights": {
+      "title": "Aperçus Clés",
+      "bestPost": "Votre post avec le plus d'impressions ({impressions} vues) était : \"{postTitle}\".",
+      "avgImpressions": "Vous avez eu en moyenne <strong>{avgImpressions}</strong> impressions par post durant cette période.",
+      "totalPosts": "Vous avez publié un total de <strong>{count}</strong> posts.",
+      "totalEngagement": "Vous avez généré un total de <strong>{engagement}</strong> interactions (j'aime + commentaires).",
+      "bestDay": "Votre jour le plus fort pour publier était le <strong>{day}</strong>, obtenant le plus grand nombre d'impressions.",
+      "bestPostType": "Les posts <strong>{type}</strong> ont généré <strong>{percent}%</strong> d'engagement en plus en moyenne.",
+      "postTypes": {
+        "with_image": "avec une image",
+        "without_image": "sans image"
+      },
+      "noBestPost": "Pas encore assez de données pour déterminer votre meilleur post.",
+      "defaultTip": "Les posts incluant une <strong>question directe</strong> ont tendance à générer deux fois plus de commentaires.",
+      "daysOfWeek": ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
+    },
+    "noData": "Pas assez de données à afficher pour cette période. Continuez à publier !",
+    "seeMore": "Voir plus",
+    "seeLess": "Voir moins"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "subtitle": "Gérez votre profil, vos préférences et votre abonnement.",
+    "saveChanges": "Enregistrer les modifications",
+    "saving": "Enregistrement...",
+    "tabs": {
+      "profile": "Compte",
+      "security": "Sécurité",
+      "general": "Général",
+      "notifications": "Notifications",
+      "billing": "Facturation",
+      "integrations": "Apps & Connexions",
+      "personalization": "Personnalisation IA"
+    },
+    "personalization": {
+      "saveSuccess": "Identité enregistrée avec succès !",
+      "contentIdentity": {
+        "title": "Identité de Contenu",
+        "tooltip": "Définissez le ton, la voix et les informations personnelles que l'IA doit utiliser pour générer des posts. Cela aide le contenu à vous ressembler davantage.",
+        "description": "Définissez le ton, la voix et les informations personnelles que l'IA doit utiliser pour générer des posts. Cela aide le contenu à vous ressembler davantage.",
+        "enableLabel": "Activer la personnalisation de l'identité",
+        "enableDescription": "Lorsque cette option est active, l'IA utilisera vos instructions et vos données personnelles.",
+        "instructionsLabel": "Instructions Personnalisées pour l'IA",
+        "instructionsPlaceholder": "Ex: Parlez toujours à la première personne. Utilisez un ton optimiste et motivant.",
+        "aboutYouTitle": "À propos de vous",
+        "aboutYouDescription": "Ces informations aident l'IA à comprendre qui vous êtes et à ajouter un contexte personnel.",
+        "nameLabel": "Votre Nom",
+        "occupationLabel": "Votre Profession ou Titre",
+        "bioLabel": "Plus sur vous (Biographie)",
+        "bioPlaceholder": "Une brève biographie que l'IA peut utiliser comme contexte."
+      },
+      "bestPractices": {
+        "title": "Meilleures Pratiques de Contenu",
+        "tooltip": "Activez ces règles pour guider l'IA dans la création de posts plus efficaces et susceptibles de devenir viraux.",
+        "description": "Activez ces règles pour guider l'IA dans la création de posts plus efficaces et susceptibles de devenir viraux.",
+        "basePracticesTitle": "Pratiques de Base (Recommandées)",
+        "customPracticesTitle": "Pratiques Personnalisées",
+        "noCustomPractices": "Vous n'avez ajouté aucune pratique personnalisée. Ajoutez vos propres règles pour l'IA !",
+        "addPractice": "Ajouter une Pratique",
+        "modal": {
+          "title": "Ajouter une Pratique Personnalisée",
+          "description": "Écrivez une instruction claire et directe que l'IA devra suivre lors de la génération de contenu.",
+          "label": "Instruction pour l'IA",
+          "placeholder": "Ex: Commencez toujours le post par une statistique percutante.",
+          "cancel": "Annuler",
+          "add": "Ajouter"
+        },
+        "practices": {
+          "hook": {
+            "title": "Accroche Forte au Début",
+            "description": "Captez l'attention dans les 3 premières secondes avec une phrase percutante ou une question provocante.",
+            "instruction": "Commencez par une accroche (hook) forte pour capter l'attention."
+          },
+          "storytelling": {
+            "title": "Utilisation du Storytelling",
+            "description": "Connectez-vous émotionnellement avec le public en racontant une histoire personnelle, une anecdote ou une étude de cas.",
+            "instruction": "Utilisez le storytelling pour vous connecter émotionnellement avec le public."
+          },
+          "pain_points": {
+            "title": "Aborder les Points de Douleur",
+            "description": "Parlez directement des problèmes, des défis ou des 'points de douleur' du public pour susciter l'empathie.",
+            "instruction": "Parlez directement des 'points de douleur' ou des problèmes du public."
+          },
+          "short_paragraphs": {
+            "title": "Paragraphes Courts et Faciles à Lire",
+            "description": "Structurez le texte en paragraphes de 1-2 phrases pour faciliter la lecture, surtout sur mobile.",
+            "instruction": "Écrivez en paragraphes très courts (1-2 phrases) pour faciliter la lecture sur mobile."
+          },
+          "end_with_question": {
+            "title": "Terminer par une Question",
+            "description": "Encouragez la conversation et l'engagement en terminant toujours par une question directe au public.",
+            "instruction": "Terminez toujours par une question pour encourager la conversation."
+          }
+        }
+      },
+      "inspirationHub": {
+        "title": "Hub d'Inspiration",
+        "tooltip": "Entraînez l'IA avec des exemples de posts viraux. Elle analysera leur style, format et utilisation d'émojis pour créer un contenu similaire.",
+        "description": "Entraînez l'IA avec des exemples de posts viraux. Elle analysera leur style, format et utilisation d'émojis pour créer un contenu similaire.",
+        "addPost": "Ajouter un Post d'Inspiration",
+        "noPosts": "Vous n'avez ajouté aucun post d'inspiration. Ajoutez des exemples pour guider l'IA !",
+        "deleteConfirm": "Êtes-vous sûr de vouloir supprimer ce post d'inspiration ?",
+        "modal": {
+          "addTitle": "Ajouter un Post d'Inspiration",
+          "editTitle": "Modifier le Post d'Inspiration",
+          "contentLabel": "Contenu du post viral",
+          "contentPlaceholder": "Collez ici le texte complet d'un post que vous aimez...",
+          "save": "Enregistrer le Post",
+          "cancel": "Annuler"
+        }
+      }
+    },
+    "profile": {
+      "title": "Profil Public",
+      "description": "Ces informations seront utilisées pour personnaliser votre expérience.",
+      "photo": "Photo de profil",
+      "changePhoto": "Changer",
+      "fullName": "Nom complet",
+      "headline": "Titre",
+      "email": "Adresse e-mail",
+      "bio": "Biographie",
+      "website": "Site web",
+      "twitter": "Nom d'utilisateur X (Twitter)",
+      "saveSuccess": "Profil enregistré avec succès."
+    },
+    "security": {
+      "title": "Sécurité",
+      "description": "Gérez votre mot de passe et la sécurité de votre compte.",
+      "password": {
+        "title": "Changer le Mot de Passe",
+        "current": "Mot de passe actuel",
+        "new": "Nouveau mot de passe",
+        "confirm": "Confirmer le nouveau mot de passe",
+        "save": "Enregistrer le Mot de Passe",
+        "success": "Mot de passe mis à jour avec succès.",
+        "error": {
+          "allFields": "Veuillez remplir tous les champs de mot de passe.",
+          "noMatch": "Les nouveaux mots de passe ne correspondent pas."
+        }
+      },
+      "twoFactor": {
+        "title": "Authentification à Deux Facteurs (2FA)",
+        "description": "Ajoutez une couche de sécurité supplémentaire à votre compte. Lors de la connexion, un code d'authentification vous sera demandé.",
+        "label": "Activer la 2FA"
+      }
+    },
+    "general": {
+      "title": "Paramètres Généraux",
+      "description": "Configurez la langue, l'apparence et le fuseau horaire de l'application.",
+      "language": "Langue",
+      "theme": {
+        "label": "Thème",
+        "light": "Clair",
+        "dark": "Sombre"
+      },
+      "timezone": "Fuseau Horaire"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Choisissez les notifications que vous souhaitez recevoir de notre part.",
+      "email": {
+        "title": "Notifications par E-mail"
+      },
+      "digest": {
+        "label": "Résumé Hebdomadaire",
+        "description": "Recevez un résumé des performances de vos posts chaque semaine."
+      },
+      "news": {
+        "label": "Nouveautés de Kolink",
+        "description": "Restez informé des nouvelles fonctionnalités et des conseils."
+      },
+      "confirm": {
+        "label": "Confirmation de Publication",
+        "description": "Recevez un e-mail chaque fois qu'un post programmé est publié."
+      },
+      "activity": {
+        "title": "Notifications d'Activité"
+      },
+      "likes": {
+        "label": "Nouveaux 'j'aime'",
+        "description": "Recevez une notification lorsque quelqu'un aime votre post."
+      },
+      "comments": {
+        "label": "Nouveaux commentaires",
+        "description": "Recevez une notification lorsque quelqu'un commente votre post."
+      },
+      "milestones": {
+        "label": "Jalons des posts",
+        "description": "Recevez des notifications pour les jalons (ex: 100 'j'aime')."
+      }
+    },
+    "billing": {
+      "plan": {
+        "title": "Mon Plan",
+        "description": "Vous êtes sur le plan {planName}. Gérez votre abonnement et vos crédits.",
+        "currentPlan": "Plan actuel",
+        "usage": "Utilisation des crédits",
+        "credits": "crédits",
+        "manageButton": "Gérer l'Abonnement",
+        "updateSuccess": "Plan mis à jour ! Vos nouveaux crédits ont été ajoutés.",
+        "modal": {
+          "title": "Choisissez Votre Plan",
+          "subtitle": "Sélectionnez le plan qui correspond le mieux à vos besoins",
+          "footer": "Tous les plans incluent un accès complet à la plateforme. Vous pouvez annuler à tout moment.",
+          "mostPopular": "Le plus populaire",
+          "selectButton": "Sélectionner",
+          "plans": {
+            "basic": {
+              "name": "Basique",
+              "price": "€7",
+              "period": "/ mois",
+              "description": "Parfait pour commencer",
+              "features": [
+                "50 crédits mensuels",
+                "Historique de base",
+                "Support par e-mail"
+              ]
+            },
+            "standard": {
+              "name": "Standard",
+              "price": "€19",
+              "period": "/ mois",
+              "description": "Idéal pour les créateurs de contenu",
+              "features": [
+                "150 crédits mensuels",
+                "Autopilote",
+                "Analyse de contenu",
+                "Base de connaissances",
+                "Support prioritaire"
+              ]
+            },
+            "premium": {
+              "name": "Premium",
+              "price": "€49",
+              "period": "/ mois",
+              "description": "Pour les professionnels et les agences",
+              "features": [
+                "400 crédits mensuels",
+                "Tout du plan Standard",
+                "Analyses avancées",
+                "Support 24/7",
+                "Accès API"
+              ]
+            }
+          }
+        }
+      },
+      "payment": {
+        "title": "Moyen de Paiement",
+        "method": "Visa se terminant par",
+        "expires": "Expire le",
+        "updateButton": "Mettre à jour"
+      },
+      "history": {
+        "title": "Historique de Facturation"
+      }
+    }
+  },
+  "gamification": {
+    "yourRank": "Votre Rang",
+    "level": "Niveau",
+    "levelUp": "Vous avez atteint le Niveau {level} !",
+    "keepCreating": "Continuez à créer du contenu pour gagner des XP et monter de niveau.",
+    "tiers": {
+      "Novato_Creador": "Créateur Novice",
+      "Estratega_de_Contenido": "Stratège de Contenu",
+      "Influencer_Digital": "Influenceur Numérique",
+      "Visionario_de_LinkedIn": "Visionnaire de LinkedIn"
+    },
+    "xp": {
+      "generate": "+10 XP pour la génération d'un post",
+      "saveDraft": "+5 XP pour l'enregistrement d'un brouillon",
+      "schedule": "+15 XP pour la programmation d'un post",
+      "publish": "+25 XP pour la publication",
+      "autopilotGenerate": "+20 XP pour l'utilisation de l'Autopilote",
+      "autopilotApprove": "+5 XP pour l'approbation d'une suggestion"
+    }
+  },
+  "helpCenter": {
+    "title": "Centre d'Aide",
+    "subtitle": "Comment pouvons-nous vous aider ? Trouvez des réponses, des guides et contactez-nous.",
+    "searchPlaceholder": "Rechercher dans le centre d'aide...",
+    "categories": {
+      "faq": "FAQ",
+      "guides": "Guides & Tutoriels",
+      "whatsNew": "Nouveautés",
+      "contact": "Contact"
+    },
+    "guides": [
+      {
+        "q": "Guide pour Rédiger des Prompts Efficaces",
+        "a": "Pour obtenir les meilleurs résultats de l'IA, soyez précis et fournissez du contexte. Au lieu de 'post sur l'IA', essayez 'Rédigez un post LinkedIn sur la façon dont l'IA générative change le marketing de contenu pour les PME, en soulignant 3 avantages clés et un risque potentiel.' Utilisez les modèles et les paramètres avancés pour affiner davantage votre demande."
+      },
+      {
+        "q": "Comment Tirer le Meilleur Parti de l'Autopilote ?",
+        "a": "L'Autopilote est votre assistant de contenu personnel. Pour qu'il fonctionne au mieux :\n1. Assurez-vous que le titre de votre profil dans les Paramètres est à jour et descriptif.\n2. Ajoutez des sujets personnalisés dans la section Autopilote pour guider l'IA.\n3. Analysez régulièrement votre contenu (si vous avez suffisamment de posts) pour que l'IA apprenne de votre style.\n4. Révisez les suggestions, approuvez-les et programmez-les. La régularité est la clé !"
+      },
+      {
+        "q": "Utiliser la Base de Connaissances pour Personnaliser les Posts",
+        "a": "La Base de Connaissances est le 'cerveau' de l'IA à votre sujet. Ajoutez des informations clés comme :\n- La mission de votre entreprise.\n- Les descriptions de vos produits ou services.\n- Votre ton de voix spécifique (ex: 'utiliser un langage formel, éviter les blagues').\n- Des données ou des réalisations importantes.\nLorsque vous activez l'option 'Utiliser la Base de Connaissances' dans le générateur, l'IA utilisera ces informations pour créer un contenu beaucoup plus pertinent et personnalisé."
+      }
+    ],
+    "whatsNewLog": [
+      {
+        "date": "Juillet 2024",
+        "title": "Lancement du Centre d'Aide Amélioré !",
+        "description": "Nous avons repensé le Centre d'Aide avec des guides, des tutoriels et un journal des modifications pour que vous trouviez tout ce dont vous avez besoin."
+      },
+      {
+        "date": "Juin 2024",
+        "title": "Personnalisation IA Avancée",
+        "description": "Vous pouvez maintenant entraîner l'IA avec des posts d'inspiration et ajouter vos propres 'Meilleures Pratiques' dans les Paramètres de Personnalisation pour un contrôle total sur le style du contenu."
+      },
+      {
+        "date": "Mai 2024",
+        "title": "Introduction de la Base de Connaissances",
+        "description": "Ajoutez des informations clés sur votre entreprise et laissez l'IA les utiliser comme contexte pour générer des posts incroyablement précis."
+      }
+    ],
+    "contact": {
+      "title": "Contactez notre équipe",
+      "description": "Si vous n'avez pas trouvé la réponse dans nos guides ou FAQ, nous sommes là pour vous aider.",
+      "form": {
+        "nameLabel": "Votre Nom",
+        "emailLabel": "Votre E-mail",
+        "messageLabel": "Votre Message",
+        "messagePlaceholder": "Décrivez votre problème ou votre question avec le plus de détails possible...",
+        "sendButton": "Envoyer le Message"
+      },
+      "directEmail": "Ou envoyez-nous un e-mail à info@kolink.es",
+      "submitSuccess": "Merci ! Votre message a été envoyé. Nous vous contacterons bientôt."
+    },
+    "faqTitle": "Foire Aux Questions (FAQ)",
+    "faqs": [
+      {
+        "q": "Comment fonctionne le système de crédits ?",
+        "a": "Chaque fois que vous générez un post avec l'IA, vous utilisez un crédit. Le plan Gratuit inclut 10 crédits par mois. Vous pouvez voir votre utilisation actuelle sur le Tableau de Bord. Les crédits sont renouvelés au début de chaque cycle de facturation."
+      },
+      {
+        "q": "Le post généré par l'IA n'est pas ce que j'attendais, que faire ?",
+        "a": "Pas de problème ! Vous pouvez modifier le post directement dans l'aperçu ou ajuster votre prompt dans le générateur. Essayez d'être plus spécifique dans vos instructions, utilisez les paramètres avancés ou sélectionnez un modèle différent pour guider l'IA vers le résultat que vous recherchez."
+      },
+      {
+        "q": "Puis-je connecter plus d'un compte LinkedIn ?",
+        "a": "Actuellement, chaque compte Kolink est conçu pour gérer un seul profil LinkedIn. Nous travaillons à offrir des fonctionnalités pour les équipes et les agences à l'avenir."
+      },
+      {
+        "q": "Comment fonctionne l'Autopilote ?",
+        "a": "L'Autopilote utilise votre titre LinkedIn, votre historique de posts et les sujets que vous spécifiez pour générer des brouillons de manière proactive. Vous pouvez configurer la fréquence et les paramètres de l'IA, puis il vous suffit de réviser, approuver et programmer les posts que vous aimez."
+      },
+      {
+        "q": "Mes données sont-elles en sécurité ?",
+        "a": "La sécurité de vos données est notre priorité absolue. Toutes les communications sont cryptées et nous ne partageons pas vos informations personnelles ni le contenu de vos posts avec des tiers. Nous nous conformons aux réglementations en vigueur sur la protection des données."
+      }
+    ],
+    "noResults": "Aucun résultat trouvé pour votre recherche."
+  },
+  "placeholder": {
+    "wip": "Cette section est en construction.",
+    "comeBack": "Revenez bientôt pour voir les nouveautés."
+  },
+  "proTips": {
+    "generator": "<strong>Conseil Pro :</strong> Soyez spécifique dans votre prompt. Au lieu de 'post sur l'IA', essayez '<em>post expliquant 3 façons dont l'IA révolutionne le e-commerce pour les PME</em>'. Le détail fait la différence !",
+    "autopilot": "<strong>Conseil Pro :</strong> Le contexte est essentiel ! Un titre de profil détaillé et des sujets spécifiques donneront à l'Autopilote les informations dont il a besoin pour créer des brouillons qui vous ressemblent vraiment.",
+    "myPosts": "<strong>Conseil Pro :</strong> Analysez quand votre public est le plus actif dans la section <strong>Statistiques</strong> et programmez vos posts à ces heures de pointe pour maximiser leur portée.",
+    "statistics": "<strong>Conseil Pro :</strong> Regardez vos posts les plus performants. Qu'ont-ils en commun ? Répliquez le format, le sujet ou le ton pour de futurs contenus."
+  },
+  "onboarding": {
+    "buttons": {
+      "next": "Suivant",
+      "prev": "Précédent",
+      "skip": "Passer le Tour",
+      "start": "Commencer le Tour",
+      "finish": "Terminer"
+    },
+    "welcome": {
+      "title": "Bienvenue sur Kolink !",
+      "content": "Nous sommes ravis de vous avoir ici. Ce tour rapide vous montrera les fonctionnalités clés pour commencer à créer du contenu incroyable."
+    },
+    "generator": {
+      "title": "Le Studio Créatif",
+      "content": "C'est ici que la magie opère. Utilisez le Générateur de Posts pour créer du contenu de haute qualité en quelques secondes, à partir d'une simple idée ou d'un modèle."
+    },
+    "autopilot": {
+      "title": "Votre Assistant de Contenu",
+      "content": "Activez l'Autopilote pour que l'IA génère automatiquement des brouillons de posts pour vous, en fonction de votre profil et de vos sujets d'intérêt. Ne soyez jamais à court d'idées !"
+    },
+    "my_posts": {
+      "title": "Votre Planificateur de Contenu",
+      "content": "Dans 'Mes Posts', vous trouverez tous vos brouillons et posts programmés. Organisez votre calendrier éditorial et maintenez une régularité."
+    },
+    "gamification": {
+      "title": "Améliorez Votre Contenu",
+      "content": "Gagnez des XP et montez de niveau en utilisant Kolink. Chaque action que vous entreprenez vous rapproche de devenir un Visionnaire de LinkedIn !"
+    },
+    "finish": {
+      "title": "Vous êtes prêt !",
+      "content": "Vous connaissez les bases. Il est temps de créer votre premier post et de commencer à construire votre marque sur LinkedIn. C'est parti !"
+    }
+  }
+}

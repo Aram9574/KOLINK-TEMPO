@@ -1,0 +1,7 @@
+{
+  "name": "KOLINK",
+  "description": "Kolink is a micro-SaaS product that offers the creation of viral posts for LinkedIn powered by AI.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

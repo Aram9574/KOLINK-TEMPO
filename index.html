@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kolink - AI LinkedIn Posts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'kolink-blue': '#3B82F6',
+              'kolink-blue-light': '#EFF6FF',
+              'kolink-gray': '#F3F4F6',
+              'kolink-text': '#1F2937',
+              'kolink-text-secondary': '#6B7280',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            keyframes: {
+              'fade-in-down': {
+                'from': { opacity: '0', transform: 'translateY(-10px) translateX(-50%)' },
+                'to': { opacity: '1', transform: 'translateY(0) translateX(-50%)' },
+              },
+              'toast-in': {
+                'from': { transform: 'translateX(100%)', opacity: '0' },
+                'to': { transform: 'translateX(0)', opacity: '1' },
+              }
+            },
+            animation: {
+              'fade-in-down': 'fade-in-down 0.2s ease-out forwards',
+              'toast-in': 'toast-in 0.5s ease-out forwards',
+            }
+          },
+        },
+      }
+    </script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-kolink-gray dark:bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
